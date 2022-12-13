@@ -505,3 +505,16 @@ sendMultipleInputsTransaction(
               })
           }
           ```
+          ### https://en.bitcoin.it/wiki/Transaction
+          
+  ### Pay-to-Script-Hash
+  ```js
+  scriptPubKey: OP_HASH160 <scriptHash> OP_EQUAL 
+scriptSig: ..signatures... <serialized script>
+
+m-of-n multi-signature transaction:
+scriptSig: 0 <sig1> ... <script>
+script: OP_m <pubKey1> ... OP_n OP_CHECKMULTISIG
+
+```
+  
