@@ -531,12 +531,12 @@ Empty.	<sig> | <pubKey> OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSI
 --------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------
 <sig> <pubKey>| <pubKey>	OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG	     |  Top stack item is duplicated.
 --------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------
-<sig> <pubKey>| <pubHashA><pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG	                |  Top stack item is hashed.
+<sig> <pubKey>| <pubHashA><pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG	                 |  Top stack item is hashed.
 --------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------
 <sig> <pubKey>| <pubHashA> <pubKeyHash>	OP_EQUALVERIFY OP_CHECKSIG	               |  Constant added.
 --------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------
 <sig> <pubKey>|	OP_CHECKSIG	                                                       |  Equality is checked between the top two stack items.
 --------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------
-true	        | Empty.	      <     >                                              |  Signature is checked for top two stack items.
+true	     <> | Empty.	      <     >                                              |  Signature is checked for top two stack items.
 --------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------
 ```
