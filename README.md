@@ -506,9 +506,11 @@ sendMultipleInputsTransaction(
           }
 ```
 ```
+```
           
-          ### https://en.bitcoin.it/wiki/Transaction
-```          
+  ### https://en.bitcoin.it/wiki/Transaction  
+```
+```
   ### Pay-to-Script-Hash
   ```js
   scriptPubKey: OP_HASH160 <scriptHash> OP_EQUAL 
