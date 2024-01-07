@@ -13,6 +13,18 @@ cd vcpkg
 .\vcpkg integrate install
 
 ```
+
+
+```js
+
+.\bootstrap-vcpkg.bat
+.\vcpkg integrate install
+
+.\vcpkg search sqlite3
+.\vcpkg install sqlite3
+.\vcpkg install sqlite3:x64-windows
+
+```
 <!--
 **balaw/balaw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
