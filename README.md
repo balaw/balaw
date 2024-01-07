@@ -1,5 +1,18 @@
 ### Hi there 👋
 
+
+
+
+
+```js
+
+git clone https://github.com/Microsoft/vcpkg.git
+cd vcpkg
+.\bootstrap-vcpkg.bat
+.\vcpkg install libsodium
+.\vcpkg integrate install
+
+```
 <!--
 **balaw/balaw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
