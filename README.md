@@ -9,7 +9,9 @@ https://my.visualstudio.com/Downloads?q=Visual%20Studio%202019
 https://www.partitionwizard.com/partitionmagic/visual-studio-2017-download.html
 https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15
 
+### bitcoin 0.1.0
 
+https://github.com/brain-zhang/bitcoin_satoshi/tree/master
 ```js
 
 git clone https://github.com/Microsoft/vcpkg.git
