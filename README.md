@@ -1,7 +1,13 @@
 ### Hi there 👋
 
-
-
+# visual studio 2017 
+# visual studio 2015
+https://o7planning.org/10815/install-visual-studio-2015-on-windows#1076761
+# visual studio 2019
+https://my.visualstudio.com/Downloads?q=Visual%20Studio%202019
+# visual studio 2017 
+https://www.partitionwizard.com/partitionmagic/visual-studio-2017-download.html
+https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15
 
 
 ```js
