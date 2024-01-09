@@ -1,4 +1,10 @@
 ### Hi there 👋
+install make in windows 
+open power shell and run this command 
+```js
+choco install make
+```
+referencse make https://stackoverflow.com/questions/66525016/how-to-run-make-command-in-gitbash-in-windows
 
 # visual studio 2017 
 # visual studio 2015
