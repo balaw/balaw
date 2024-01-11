@@ -1,8 +1,9 @@
 ### Hi there 👋
 
 https://www.youtube.com/watch?v=89R8hx-eAgA&ab_channel=TechnoVision
+# 
 https://controlc.com/4298473f
-UBUNTU DEPENDENCIES:
+# UBUNTU DEPENDENCIES:
   ```js
 sudo apt-get update
 ```
