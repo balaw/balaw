@@ -1,5 +1,8 @@
 ### Hi there 👋
-
+https://www.eduonix.com/create-your-own-cryptocurrency-just-like-bitcoin-or-litecoin
+#
+https://www.hackster.io/pjdecarlo/how-to-make-a-cryptocurrency-using-litecoin-v0-15-source-fb5e82
+#
 https://www.youtube.com/watch?v=89R8hx-eAgA&ab_channel=TechnoVision
 # 
 https://controlc.com/4298473f
