@@ -13,17 +13,22 @@ https://www.youtube.com/watch?v=89R8hx-eAgA&ab_channel=TechnoVision
 apt install sudo
 ```
 Install sudo on Ubuntu/Debian
+```js
 su -c 'apt-get update'
 su -c 'apt-get install sudo'
+```
 
 Install sudo on CentOS/RHEL
+```js
 su -c 'yum makecache'
 su -c 'yum install sudo'
-
+```
 
 Add a user to sudoers file
 Enable sudo for an user of your system
+```js
 su -c 'usermod -aG sudo your_username'
+```
 # https://github.com/TechnoVisionDev/TechnoCoin
 # 
 https://controlc.com/4298473f
