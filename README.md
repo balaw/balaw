@@ -4,9 +4,26 @@ https://www.eduonix.com/create-your-own-cryptocurrency-just-like-bitcoin-or-lite
 https://www.hackster.io/pjdecarlo/how-to-make-a-cryptocurrency-using-litecoin-v0-15-source-fb5e82
 #
 https://www.youtube.com/watch?v=89R8hx-eAgA&ab_channel=TechnoVision
-#
+# install ubuntu
 # https://releases.ubuntu.com/18.04/
 #
+# to run run terminal you have to change region and language 
+# and install sudo for terminal
+```js
+apt install sudo
+```
+Install sudo on Ubuntu/Debian
+su -c 'apt-get update'
+su -c 'apt-get install sudo'
+
+Install sudo on CentOS/RHEL
+su -c 'yum makecache'
+su -c 'yum install sudo'
+
+
+Add a user to sudoers file
+Enable sudo for an user of your system
+su -c 'usermod -aG sudo your_username'
 # https://github.com/TechnoVisionDev/TechnoCoin
 # 
 https://controlc.com/4298473f
