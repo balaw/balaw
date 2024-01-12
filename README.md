@@ -4,6 +4,10 @@ https://www.eduonix.com/create-your-own-cryptocurrency-just-like-bitcoin-or-lite
 https://www.hackster.io/pjdecarlo/how-to-make-a-cryptocurrency-using-litecoin-v0-15-source-fb5e82
 #
 https://www.youtube.com/watch?v=89R8hx-eAgA&ab_channel=TechnoVision
+#
+# https://releases.ubuntu.com/18.04/
+#
+# https://github.com/TechnoVisionDev/TechnoCoin
 # 
 https://controlc.com/4298473f
 # UBUNTU DEPENDENCIES:
@@ -71,7 +75,13 @@ find . -type f -print0 | xargs -0 sed -i 's/LITECOIN/TECHNOCOIN/g'
 find . -type f -print0 | xargs -0 sed -i 's/LTC/VISION/g'
 
 ```
-
+```js
+make -f makefile.unix
+```
+then
+```js
+ls
+```
 bitcoin-archaeology
 
 https://github.com/brianddk/bitcoin-archaeology/tree/main
