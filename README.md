@@ -1,3 +1,8 @@
+
+```js
+bitcoin-cli getblocktemplate "{\"rules\": [\"segwit\"]}"
+```
+
 ### Hi there 👋
 https://www.eduonix.com/create-your-own-cryptocurrency-just-like-bitcoin-or-litecoin
 #
