@@ -3,6 +3,14 @@
 ```js
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
+```js
+
+ wsl.exe --install
+```
+ or 
+ ```js
+wsl.exe --update
+```
 # https://www.usna.edu/Users/cs/choi/si204/setup/wsl.html
 
 
