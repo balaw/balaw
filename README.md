@@ -1,3 +1,11 @@
+
+
+```js
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+# https://www.usna.edu/Users/cs/choi/si204/setup/wsl.html
+
+
 https://gist.github.com/bshyong/ff9479a5e08102924812
 #
 https://github.com/bitcoin/bitcoin/tree/v0.9.0rc1
