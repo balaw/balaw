@@ -1,4 +1,6 @@
-
+https://gist.github.com/bshyong/ff9479a5e08102924812
+#
+https://github.com/bitcoin/bitcoin/tree/v0.9.0rc1
 ```js
 bitcoin-cli getblocktemplate "{\"rules\": [\"segwit\"]}"
 ```
