@@ -1,5 +1,15 @@
+open powershell as administrator and run this commands
+```js
+git clone https://github.com/Microsoft/vcpkg.git
+cd vcpkg
+./bootstrap-vcpkg.bat
+./vcpkg install libsodium
+./vcpkg integrate install
+./vcpkg install boost
 
-
+```
+# 
+# https://nuwen.net/mingw.html
 
 
 ```js
