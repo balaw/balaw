@@ -8,6 +8,9 @@ cd vcpkg
 ./vcpkg install boost
 vcpkg search berkeleydb
 vcpkg install berkeleydb
+vcpkg search wxwidgets
+vcpkg install wxwidgets
+
 
 
 ```
