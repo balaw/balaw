@@ -6,6 +6,9 @@ cd vcpkg
 ./vcpkg install libsodium
 ./vcpkg integrate install
 ./vcpkg install boost
+vcpkg search berkeleydb
+vcpkg install berkeleydb
+
 
 ```
 # 
