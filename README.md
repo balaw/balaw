@@ -1,5 +1,27 @@
 
 
+
+
+```js
+
+
+// g++ -c base_blob.cpp -o base_blob.o
+// g++ -c uint256.cpp -o uint256.o
+// g++ -c uint256.cpp -o uint256.o
+// g++ multi.cpp base_blob.o uint256.o -o your_executable -lpthread
+
+
+
+// g++ multi.cpp base_blob.o uint256.o -o le -lpthread
+// g++ multi.cpp uint256.o -o le -lpthread
+g++ multi.cpp uint256.o -o le -lpthread
+beamhashverify.cc
+
+g++ -c arith_uint256.cpp -o base_blob.node
+arith_uint256.cpp
+
+```
+
 ```js
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
