@@ -1,3 +1,11 @@
+
+```js
+sudo apt-get purge --auto-remove nodejs
+```
+
+
+
+
 open powershell as administrator and run this commands
 ```js
 git clone https://github.com/Microsoft/vcpkg.git
