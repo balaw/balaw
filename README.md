@@ -2,7 +2,10 @@
 ```js
 sudo apt-get purge --auto-remove nodejs
 ```
-
+or 
+```js
+sudo apt-get purge nodejs
+```
 
 
 
