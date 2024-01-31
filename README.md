@@ -1,4 +1,8 @@
-
+mingw boost install 
+# https://packages.msys2.org/package/mingw-w64-x86_64-boost
+```js
+pacman -S mingw-w64-x86_64-boost
+```
 ```js
 sudo apt-get purge --auto-remove nodejs
 ```
