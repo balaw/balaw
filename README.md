@@ -1,5 +1,9 @@
 
 
+```js
+pacman -Ss gcc
+```
+
 to upgrade msys2
 ```js
 pacman -Su
