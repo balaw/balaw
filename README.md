@@ -1,3 +1,9 @@
+
+
+to upgrade msys2
+```js
+pacman -Su
+```
 mingw boost install 
 # https://packages.msys2.org/package/mingw-w64-x86_64-boost
 ```js
