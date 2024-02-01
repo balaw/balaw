@@ -133,7 +133,7 @@ vcpkg install berkeleydb
 vcpkg search wxwidgets
 vcpkg install wxwidgets
 
-
+.\vcpkg install leveldb
 
 ```
 # 
