@@ -22,6 +22,14 @@ pacman -S mingw-w64-{i686,x86_64}-toolchain mingw-w64-{i686,x86_64}-pkgconf
 pacman -S mingw-w64-{i686,x86_64}-{boost,protobuf,libpng,qt5,qt5-static}
 pacman -Sy
 pacman -S --needed filesystem msys2-runtime bash libreadline libiconv libarchive libgpgme libcurl pacman ncurses libintl
+pacman -Su
+pacman -S git make
+pacman -S --needed base-devel mingw-w64-i686-toolchain mingw-w64-x86_64-toolchain \
+git subversion mercurial \
+mingw-w64-i686-cmake mingw-w64-x86_64-cmake
+pacman -S mingw-w64-x86_64-make mingw-w64-i686-make
+pacman -S mingw-w64-x86_64-zlib mingw-w64-i868-zlib
+pacman -S mingw-w64-x86_64-qca-qt5
 
 ```
 https://packages.msys2.org/package/mingw-w64-x86_64-miniupnpc
