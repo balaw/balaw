@@ -31,6 +31,7 @@ pacman -S mingw-w64-x86_64-make mingw-w64-i686-make
 pacman -S mingw-w64-x86_64-zlib mingw-w64-i868-zlib
 pacman -S mingw-w64-x86_64-qca-qt5
 pacman -S mingw-w64-x86_64-python-httplib2
+pacman -S development
 
 ```
 https://packages.msys2.org/package/mingw-w64-x86_64-miniupnpc
