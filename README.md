@@ -1,3 +1,5 @@
+# https://github.com/bitcoin-core/secp256k1
+# https://github.com/Blockstream/contracthashtool/tree/master
 # https://nuwen.net/mingw.html
 # cpp-mingw-insstall
 
