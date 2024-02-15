@@ -1,4 +1,4 @@
-
+```js
 const fs = require('fs');
 
 // Function to search and replace (base_uint160)b with base_uint160(b)
@@ -55,12 +55,12 @@ const outputFilePath = 'uutput.txt'; // Replace with your desired output file pa
 processFile(inputFilePath, outputFilePath);
 
 
-
+```
 
 
 # find and modify 
 
-
+```js
 const fs = require('fs');
 
 const filePath = 'uuuuextractElements1.js';
@@ -77,4 +77,6 @@ const modifiedContent = fileContent.replace(new RegExp(searchString, 'g'), repla
 fs.writeFileSync(filePath, modifiedContent, 'utf8');
 
 console.log('Search and replace complete.');
+
+```
 
