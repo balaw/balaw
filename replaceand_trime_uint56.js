@@ -53,3 +53,28 @@ const outputFilePath = 'uutput.txt'; // Replace with your desired output file pa
 
 // Call the function to process the file
 processFile(inputFilePath, outputFilePath);
+
+
+
+
+
+# find and modify 
+
+
+const fs = require('fs');
+
+const filePath = 'uuuuextractElements1.js';
+const searchString = '160';
+const replacementString = '256';
+
+// Read the content of the file
+const fileContent = fs.readFileSync(filePath, 'utf8');
+
+// Replace occurrences of '160' with '256'
+const modifiedContent = fileContent.replace(new RegExp(searchString, 'g'), replacementString);
+
+// Write the modified content back to the file
+fs.writeFileSync(filePath, modifiedContent, 'utf8');
+
+console.log('Search and replace complete.');
+
